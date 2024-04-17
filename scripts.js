@@ -23,16 +23,21 @@ function recupIngredients(recette){
    else{
       break;
    }   
-}
+ }
 const newInnerHtml = `
+ <div id="title">
+   <h3>${recette.strMeal}</h3>
+   <img src="${recette.strMealThumb}" alt="Photo de la recette">
+ </div>
 <div class="row">
  <ul>
  ${listIngredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
  </ul>
- </div>`
+ </div>
+ <div id="instructions">
+ ${recette.strInstructions}
+ </div>
+ `
+ recette_container.innerHTML= newInnerHtml;
+}
 
-recette_container.innerHTML= newInnerHtml;
-} 
-
-
- 
