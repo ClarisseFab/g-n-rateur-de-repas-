@@ -1,0 +1,33 @@
+.accueil{
+    background: #77B0AA; 
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 30px; 
+    border-radius: 3px; 
+    text-align: center; 
+}
+
+.btn-accueil{
+    text-decoration: none; 
+    background-color: #003C43; 
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px; 
+    box-shadow: 0 0 16px rgba(0,0,0.1); 
+    transition: 0.3s ease;
+}
+
+.btn-accueil:hover{
+    background-color: #001d20; 
+    cursor: pointer; 
+}
+
+button{
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 50px; 
+}
+
+h2{
+    font-style: italic; 
+}
