@@ -1,6 +1,6 @@
 .accueil{
     background: #77B0AA; 
-    width: 50%; 
+    width: 75%; 
     margin: 0 auto; 
     padding: 30px; 
     border-radius: 3px; 
@@ -30,4 +30,31 @@ button{
 
 h2{
     font-style: italic; 
+}
+
+h3{
+    font-size: 40px; 
+    color: #003C43; 
+}
+
+#recette{
+    width: 100%; 
+}
+
+#title{
+    text-align: center; 
+}
+
+img{
+    max-width: 400px; 
+}
+
+p{
+    font-size: 17px; 
+    text-align: center; 
+}
+
+p, li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: #003C43; 
 }

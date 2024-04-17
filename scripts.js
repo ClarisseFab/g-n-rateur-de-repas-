@@ -35,7 +35,7 @@ const newInnerHtml = `
  </ul>
  </div>
  <div id="instructions">
- ${recette.strInstructions}
+ <p>${recette.strInstructions}</p>
  </div>
  `
  recette_container.innerHTML= newInnerHtml;
