@@ -37,6 +37,11 @@ h3{
     color: #003C43; 
 }
 
+h5{
+    font-size: 20px; 
+    margin-bottom: 0; 
+}
+
 #recette{
     width: 100%; 
 }
@@ -54,7 +59,12 @@ p{
     text-align: center; 
 }
 
-p, li{
+p, li, h5{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     color: #003C43; 
+}
+
+#video{
+    text-align: center; 
+    margin-top: 50px;  
 }

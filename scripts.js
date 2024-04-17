@@ -30,12 +30,17 @@ const newInnerHtml = `
    <img src="${recette.strMealThumb}" alt="Photo de la recette">
  </div>
 <div class="row">
+<h5>Ingredients</h5>
  <ul>
  ${listIngredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
  </ul>
  </div>
  <div id="instructions">
+ <h5>Instructions</h5>
  <p>${recette.strInstructions}</p>
+ </div>
+ <div id="video">
+ <iframe src="https://www.youtube.com/embed/${recette.strYoutube.slice(-11)}" width="400" height="300"></iframe>
  </div>
  `
  recette_container.innerHTML= newInnerHtml;
